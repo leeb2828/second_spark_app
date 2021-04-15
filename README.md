@@ -58,15 +58,20 @@ $ mkdir src; mkdir src/main; mkdir src/main/java; mkdir src/main/java/com; mkdir
 Add all of your HTML, CSS, JavaScript, and images inside of your my_app/src/main/resources/public directory!
 
 - Run the following command (from the same folder as the pom.xml file)
-- $ <b>mvn compile</b>
-- $ <b>mvn clean install</b> &nbsp;&nbsp;&nbsp;---> (If needed) The clean command will delete all previously compiled Java.class files and resources.
-- $ <b>mvn exec:java -Dexec.mainClass="com.leehaney.App"</b>
-<br />
+```
+ $ <b>mvn compile</b>
+```
+- (If needed) mvn clean install
+```
+mvn exec:java -Dexec.mainClass="com.leehaney.App"</b>
+```
 TIP: Run this command to make it so you only have to type "run" in order to run the program:<br />
-- $ <b>alias run='mvn exec:java -Dexec.mainClass="com.leehaney.App"' <br />
-- $ run <br>
-<b>NOTE: Make sure the top of the App.java file includes "package com.leehaney;" <br />
-In the browser, type in <br />
+```
+$ alias run='mvn exec:java -Dexec.mainClass="com.leehaney.App"' <br />
+$ run 
+```
+NOTE: Make sure the top of the App.java file includes "package com.leehaney;" <br />
+In the browser, type in:
         
 ```
 http://localhost:4567
