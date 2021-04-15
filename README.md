@@ -67,10 +67,12 @@ TIP: Run this command to make it so you only have to type "run" in order to run 
 - $ run <br>
 <b>NOTE: Make sure the top of the App.java file includes "package com.leehaney;" <br />
 In the browser, type in <br />
-```
 http://localhost:4567
-```
+
 The web page should appear.
+Create a repo.
+Make sure there is at least one file in it (even just the README)
+Generate ssh key:
 ```
 ssh-keygen -t rsa -C "your_email@example.com"
 ```
