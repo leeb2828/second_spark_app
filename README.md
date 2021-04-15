@@ -59,15 +59,15 @@ Add all of your HTML, CSS, JavaScript, and images inside of your my_app/src/main
 
 - Run the following command (from the same folder as the pom.xml file)
 ```
- $ <b>mvn compile</b>
+ $ <b>mvn compile
 ```
 - (If needed) mvn clean install
 ```
-mvn exec:java -Dexec.mainClass="com.leehaney.App"</b>
+mvn exec:java -Dexec.mainClass="com.leehaney.App"
 ```
 TIP: Run this command to make it so you only have to type "run" in order to run the program:<br />
 ```
-$ alias run='mvn exec:java -Dexec.mainClass="com.leehaney.App"' <br />
+$ alias run='mvn exec:java -Dexec.mainClass="com.leehaney.App"' 
 $ run 
 ```
 NOTE: Make sure the top of the App.java file includes "package com.leehaney;" <br />
