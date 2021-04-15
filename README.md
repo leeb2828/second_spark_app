@@ -1,6 +1,8 @@
 # Display a photo gallery using the Spark Framework
+
+Type in this url into your browser:
 ![web_page_url](url.png)
-<br />
+Photo gallery is displayed:
 ![web_page](webpage.png)
 
 <br />
