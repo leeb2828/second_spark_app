@@ -1,0 +1,56 @@
+/* The Modal window */
+#myModal {
+    display: none;
+    position: fixed;
+    padding-top: 90px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0.9);
+}
+
+
+.modal_content {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+}
+
+#navigate_pics {
+    width: 100px;
+    height: 50px;
+    padding: 2px;
+    background: rgba(0, 0, 0.9);
+    color: white;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.forward,
+.backwards {
+    cursor: pointer;
+    height: 45px;
+}
+
+.forward {
+    float: right;
+
+}
+
+.backwards {
+    float: left;
+
+}

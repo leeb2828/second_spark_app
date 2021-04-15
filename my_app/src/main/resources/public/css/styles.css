@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: powderblue;
+    max-width: 1900px;
+}
+
+img {
+    width: 320px;
+    height: 240px;
+}
+
+#main_title {
+    font-family: 'Galada', cursive, sans-serif;
+    text-align: center;
+}
+
+.flex_container {
+    background: darkcyan;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: 5px;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .flex_container {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
