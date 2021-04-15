@@ -65,7 +65,7 @@ Add all of your HTML, CSS, JavaScript, and images inside of your my_app/src/main
 ```
  $ mvn compile
 ```
-- (If needed) mvn clean install
+- A target directory should appear inside of my_app directory. (If needed) run the "mvn clean install" command
 ```
 mvn exec:java -Dexec.mainClass="com.leehaney.App"
 ```
