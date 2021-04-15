@@ -67,7 +67,8 @@ TIP: Run this command to make it so you only have to type "run" in order to run 
 - $ run <br>
 <b>NOTE: Make sure the top of the App.java file includes "package com.leehaney;" <br />
 In the browser, type in <br />
-        http://localhost:4567
+      ```  http://localhost:4567 ```
+The web page should appear.
 
 <br />
 <br />
