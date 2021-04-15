@@ -71,6 +71,9 @@ In the browser, type in <br />
 http://localhost:4567
 ```
 The web page should appear.
+```
+ssh-keygen -t rsa -C "your_email@example.com"
+```
 
 <br />
 <br />
