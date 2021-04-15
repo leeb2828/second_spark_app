@@ -1,5 +1,6 @@
 # Display a photo gallery using the Spark Framework
 ![web_page_url](url.png)
+<br />
 ![web_page](webpage.png)
 
 <br />
