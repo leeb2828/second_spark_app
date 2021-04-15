@@ -59,7 +59,7 @@ Add all of your HTML, CSS, JavaScript, and images inside of your my_app/src/main
 
 - Run the following command (from the same folder as the pom.xml file)
 ```
- $ <b>mvn compile
+ $ mvn compile
 ```
 - (If needed) mvn clean install
 ```
