@@ -69,7 +69,8 @@ TIP: Run this command to make it so you only have to type "run" in order to run 
 In the browser, type in <br />
 http://localhost:4567
 
-
+<br />
+<br />
 
 
 If you see the following error message:
