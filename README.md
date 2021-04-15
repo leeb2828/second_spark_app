@@ -46,7 +46,9 @@ $ mkdir src; mkdir src/main; mkdir src/main/java; mkdir src/main/java/com; mkdir
 
         public class App {
             public static void main(String[] args) {
-                staticFileLocation("/public");
+                // staticFileLocation() tells Spark where to look for your HTML, CSS, and JS files. 
+                // the public directory must be inside of the resources directory.
+                staticFileLocation("/public"); 
 
                 get("/", (req, res) -> {
                     return new ModelAndView(null, "index.html");
