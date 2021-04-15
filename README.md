@@ -1,4 +1,4 @@
-# HELLO WORLD SPARK APP
+# Display a photo gallery using the Spark Framework
 for this project, I am using
 - Maven Build Tool
 - Visual Studio Code
