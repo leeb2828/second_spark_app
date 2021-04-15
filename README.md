@@ -33,8 +33,9 @@ and run your project.
 
 
 - Add the following directories and java file with these commands (from the my_app directory):
-$ mkdir src; mkdir src/main; mkdir src/main/java; mkdir src/main/java/com; mkdir src/main/java/com/leehaney; touch src/main/java/com/leehaney/App.java
-$ mdkdir src/main/resources
+$ mkdir src; mkdir src/main; mkdir src/main/java; mkdir src/main/java/com; mkdir src/main/java/com/leehaney; touch src/main/java/com/leehaney/App.java<br />
+$ mkdir src/main/resources <br />
+$ mkdir src/main/resources/public
 
 ### Add this code to your App.java file
         package com.leehaney;
