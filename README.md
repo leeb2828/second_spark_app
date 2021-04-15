@@ -80,6 +80,10 @@ In the browser, type in:
 ```
 http://localhost:4567
 ```
+or
+```
+http://0.0.0.0:4567
+```
 The web page should appear. 
 
 <br />
