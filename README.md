@@ -1,5 +1,10 @@
 # Display a photo gallery using the Spark Framework
-for this project, I am using
+![web_page_url](url.png)
+![web_page](webpage.png)
+
+<br />
+
+For this project, I am using
 - Maven Build Tool
 - Visual Studio Code
 
