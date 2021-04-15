@@ -8,7 +8,7 @@ Spark is a Micro-framework that allows you to spin up a web server. Do not confu
 They just happen to share the same name.<br />
 <b>Documentation<b>: http://sparkjava.com/ 
 
-## Instructions for creating a hello world program using the Spark Framework.
+## Instructions for creating this project
 
 - Create a folder called "first_spark_app"
 - Navigate to the "first_spark_app" directory from the terminal.
